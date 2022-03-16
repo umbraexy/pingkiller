@@ -1,4 +1,6 @@
 #!/bin/bash 
+#andres
+#3/16/2022
 # redirects information extracted from ps
 ps > ps.txt
 # extracts PID from process line
