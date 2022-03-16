@@ -11,6 +11,4 @@ done
 # extra layer added to include PIDs that have a different number of digits
 cat ps.txt |grep "ping" |cut -d " " -f 3  > pid.txt
 for pid in $(cat pid.txt); do kill $pid 2> /dev/null  &
-cat pid.txt
-echo "Ping killed with success." &
 done
